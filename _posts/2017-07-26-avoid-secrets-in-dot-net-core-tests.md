@@ -5,14 +5,14 @@ title: Avoid Secrets in DotNet Core Tests.
 
 # Motivation
 
-I like the idea of removing user secrets from my applications during development as pointed out in the following [microsoft documentation](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets). This techneque works great for web application development, but what about tests? I often will create integration tests that contain sensetive information to test out connecting to an external service, so why not do the same?
+I like the idea of removing user secrets from my applications during development as pointed out in the following [microsoft documentation](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets). This technique works great for web application development, but what about tests? I often will create integration tests that contain sensitive information to test out connecting to an external service, so why not do the same?
 
 # Setup
 
 
 ## Create the project 
 
-First, Create a .NET core unit test project. 
+First, create a .NET core unit test project. 
 
 ## Install NuGet Packages
 
